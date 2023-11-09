@@ -47,3 +47,13 @@ create table ClientOrderItem(
 	ClientOrderID int references ClientOrder(ID) not null,
 	ProductID int references Product(ID) not null,
 );
+go
+
+insert into store values
+	('Mc do Tavares'),
+	('Mc do Felipe'),
+	('Mc do Piazin'),
+	('Mc do Vini'),
+	('Mc do Lander'),
+	('Mc do Rosa')
+go
